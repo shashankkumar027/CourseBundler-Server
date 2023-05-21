@@ -30,7 +30,7 @@ app.listen(process.env.PORT,async () => {
   await connectDB();
 
   console.log(
-    `* Server is running on url: http://localhost:${process.env.PORT}`
+    `* 🎉 Server is running on url: http://localhost:${process.env.PORT}`
   );
 
   app.get("/", (req, res) => {
